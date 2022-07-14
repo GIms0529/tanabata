@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 x = np.linspace(-10, 10, 101)
 print(x)
   
-y = np.exp(-x**2 / 2) / np.sqrt(2 * np.pi)	
+y = np.exp(-x**2 / 2) / np.sqrt(2 * np.pi)-5
 print(y)
   
 plt.plot(x, y)		
