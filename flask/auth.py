@@ -1,4 +1,4 @@
-﻿from flask import Flask, render_template, request
+from flask import Flask, render_template, request
   
 app = Flask(__name__)
   
@@ -11,6 +11,8 @@ def output():
     id = request.form['id']
     pwd = request.form['pwd']
       
+    true_id = 'tanaka'			
+    true_pwd = 'masahiko'			
       
     if true_id==id and true_pwd==pwd:
         kekka = 'いらっしゃいませ！'			
